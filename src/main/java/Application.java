@@ -15,7 +15,7 @@ public class Application {
         System.out.println(result11);
 
         System.out.println("Currently, isEqual produces the following value for '2 is equal to 7':");
-        boolean result12 = comparisons.isEqual(2,7);
+        boolean result12 = comparisons.isEqual(2,2);
         System.out.println(result12);
 
         System.out.println("Currently, greaterThan produces the following value for '5 is greater than 3':");
