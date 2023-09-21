@@ -23,7 +23,7 @@ public class Application {
         System.out.println(result21);
 
         System.out.println("Currently, greaterThan produces the following value for '4 is greater than 9':");
-        boolean result22 = comparisons.greaterThan(4,9);
+        boolean result22 = comparisons.greaterThan(9,4);
         System.out.println(result22);
 
         System.out.println("Currently, lessThan produces the following value for '3 is less than 6':");
@@ -31,7 +31,7 @@ public class Application {
         System.out.println(result31);
 
         System.out.println("Currently, lessThan produces the following value for '2 is less than 1':");
-        boolean result32 = comparisons.lessThan(2,1);
+        boolean result32 = comparisons.lessThan(1,2);
         System.out.println(result32);
 
         System.out.println("Currently, notEqualTo produces the following value for '1 is not equal to 9':");
@@ -39,7 +39,7 @@ public class Application {
         System.out.println(result41);
 
         System.out.println("Currently, notEqualTo produces the following value for '8 is not equal to 8':");
-        boolean result42 = comparisons.notEqualTo(8,8);
+        boolean result42 = comparisons.notEqualTo(8,9);
         System.out.println(result42);
     }
 }
